@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DraftKings Suite]">
+  <test thread-count="5" name="ToolsQa Test Smoke(failed)">
+    <classes>
+      <class name="com.test.LoginToolsQa">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="Login"/>
+        </methods>
+      </class> <!-- com.test.LoginToolsQa -->
+      <class name="com.test.SearchBookToolQa">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="SearchBook"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.test.SearchBookToolQa -->
+    </classes>
+  </test> <!-- ToolsQa Test Smoke(failed) -->
+</suite> <!-- Failed suite [DraftKings Suite] -->
